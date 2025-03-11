@@ -11,7 +11,7 @@ export default async function Page({
   params: { slug: string };
 }) {
   // Await params before using its properties
-  const { slug } = await params;
+  const { slug } = await Promise.resolve(params);
   // Find the blog based on the slug
   const data = blogData.find((item) => item.slug === slug);
 
