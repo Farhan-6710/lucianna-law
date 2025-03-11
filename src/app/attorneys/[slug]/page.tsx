@@ -16,10 +16,9 @@ import { FaXTwitter } from "react-icons/fa6";
 import { IoCall } from "react-icons/io5";
 
 export default async function Page({ params }: { params: { slug: string } }) {
-  // Make params a Promise and await it
-  const { slug } = await Promise.resolve(params);
-
-  // Find the attorney based on the slug
+  // Await params before using its properties
+  const { slug } = params;
+  // Find the blog based on the slug
   const data = attorneyData.find((item) => item.slug === slug);
 
   if (!data) {
