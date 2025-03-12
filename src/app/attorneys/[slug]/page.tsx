@@ -1,3 +1,5 @@
+"use client";
+
 import BackToTop from "@/components/extras/BackToTop";
 import BreadcrumbSection from "@/components/extras/BreadcrumbSection";
 import Footer from "@/components/footer/Footer";
