@@ -14,11 +14,11 @@ import {
 } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { IoCall } from "react-icons/io5";
+import { useParams } from "next/navigation";
 
-export default async function Page({ params }: { params: { slug: string } }) {
-  // Await params before using its properties
-  const { slug } = params;
-  // Find the blog based on the slug
+export default function Page() {
+  const { slug } = useParams();
+
   const data = attorneyData.find((item) => item.slug === slug);
 
   if (!data) {

@@ -4,15 +4,11 @@ import Footer from "@/components/footer/Footer";
 import Header from "@/components/header/Header";
 import HeaderTop from "@/components/header/HeaderTop";
 import { blogData } from "@/data/blogData";
+import { useParams } from "next/navigation";
 
-export default async function Page({
-  params,
-}: {
-  params: { slug: string };
-}) {
-  // Await params before using its properties
-  const { slug } = params;
-  // Find the blog based on the slug
+export default function Page() {
+  const { slug } = useParams();
+
   const data = blogData.find((item) => item.slug === slug);
 
   if (!data) {

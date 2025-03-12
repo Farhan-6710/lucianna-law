@@ -4,15 +4,11 @@ import Footer from "@/components/footer/Footer";
 import Header from "@/components/header/Header";
 import HeaderTop from "@/components/header/HeaderTop";
 import { data } from "@/data/personalInjuryData";
+import { useParams } from "next/navigation";
 
-export default async function CriminalDefensePage({
-  params,
-}: {
-  params: { slug: string };
-}) {
-  // Await params before using its properties
-  const { slug } = params;
-  // Find the case based on the slug
+export default function Page() {
+  const { slug } = useParams();
+
   const caseData = data.find((item) => item.slug === slug);
 
   if (!caseData) {
