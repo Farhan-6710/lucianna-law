@@ -17,7 +17,7 @@ const LegalSpecialities: React.FC = () => {
               key={index}
               title={card.title}
               description={card.description}
-              readMoreLink={card.readMoreLink}
+              slug={card.slug}
               className={
                 index === specialityCardsData.length - 1 &&
                 specialityCardsData.length % 2 !== 0

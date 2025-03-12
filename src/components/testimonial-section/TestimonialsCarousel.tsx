@@ -67,7 +67,7 @@ const TestimonialsCarousel = () => {
                     width={200}
                     height={200}
                     alt={testimonial.personName}
-                    className="w-12 h-12 rounded-full border-2 border-mainBrown"
+                    className="w-12 h-12 rounded-full border-4 border-mainBrown"
                   />
                   <div>
                     <p className="font-semibold text-white">

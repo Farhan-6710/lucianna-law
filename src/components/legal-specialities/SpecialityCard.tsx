@@ -4,14 +4,14 @@ import Link from "next/link";
 interface SpecialityCardProps {
   title: string;
   description: string;
-  readMoreLink: string;
+  slug: string;
   className?: string; // Make className optional
 }
 
 const SpecialityCard: React.FC<SpecialityCardProps> = ({
   title,
   description,
-  readMoreLink,
+  slug,
   className = "", // Provide a default value
 }) => {
   return (
@@ -23,7 +23,7 @@ const SpecialityCard: React.FC<SpecialityCardProps> = ({
       </div>
       <p className="mt-2 text-sm">{description}</p>
       <Link
-        href={readMoreLink}
+        href={`legal-specialities/${slug}`}
         className="text-blue-500 text-sm hover:underline block mt-2"
         aria-label={`Read more about ${title}`} /* Provides context/purpose  when tab lands*/
       >

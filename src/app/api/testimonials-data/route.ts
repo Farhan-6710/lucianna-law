@@ -7,7 +7,7 @@ const testimonialsData = [
     title: "Great Work!",
     comment:
       "Great service! Prompt, reliable, and efficient — the staff was fantastic (Paul was incredibly responsive and helpful). Truly great professionals and highly trustworthy.",
-    imgPath: "https://placehold.co/600x400", // Corrected imgPath to be a valid URL string
+    imgPath: "/user-1.jpg", // Corrected imgPath to be a valid URL string
     personName: "Juan Arias",
     personPost: "Client",
   },
@@ -16,7 +16,7 @@ const testimonialsData = [
     title: "Best Lawfirm Agency!",
     comment:
       "Wow! Amazing Nancy is by far the smartest Attorney I’ve ever had. She has Amazing credentials and credibility in the Bergen County, and surrounding counties. ",
-    imgPath: "https://placehold.co/600x400", // Corrected imgPath to be a valid URL string
+    imgPath: "/user-1.jpg", // Corrected imgPath to be a valid URL string
     personName: "Robert Rodriguez",
     personPost: "Client",
   },
@@ -25,7 +25,7 @@ const testimonialsData = [
     title: "Best Lawfirm Agency!",
     comment:
       "Nancy Lucianna is an attorney of utmost integrity. She is highly knowledgeable in her area of practice and is a most zealous and dedicated advocate of her client's interests.",
-    imgPath: "https://placehold.co/600x400", // Corrected imgPath to be a valid URL string
+    imgPath: "/user-1.jpg", // Corrected imgPath to be a valid URL string
     personName: "Peter Lafharis",
     personPost: "Business Owner",
   },
@@ -34,7 +34,7 @@ const testimonialsData = [
     title: "Great Work!",
     comment:
       "Attorney Nancy Lucianna and her firm is excellent. Nancy is very professional, efficient and personable lawyer. I highly recommend her and her team to my colleagues and family.",
-    imgPath: "https://placehold.co/600x400", // Corrected imgPath to be a valid URL string
+    imgPath: "/user-1.jpg", // Corrected imgPath to be a valid URL string
     personName: "Jaclyn Kim",
     personPost: "Individual Client",
   },
@@ -43,7 +43,7 @@ const testimonialsData = [
     title: "Great Work!",
     comment:
       "Nancy is a very incredible lawyer extremely capable and thorough I would recommend Her services to anyone that I cared about",
-    imgPath: "https://placehold.co/600x400", // Corrected imgPath to be a valid URL string
+    imgPath: "/user-1.jpg", // Corrected imgPath to be a valid URL string
     personName: "Larry Michelli",
     personPost: "Client",
   },
