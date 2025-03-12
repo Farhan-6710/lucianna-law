@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import SectionHeading from "./extras/SectionHeading";
+import SectionHeading from "../extras/SectionHeading";
 import { attorneyData } from "@/data/attorneyData";
 import Link from "next/link";
 
@@ -29,10 +29,10 @@ const AttorneySection = () => {
             </div>
             <div className="p-6">
               <p className="text-xs text-gray-500 uppercase mb-2">Attorney</p>
-              <h3 className="text-xl font-semibold text-mainBrown mb-4">
+              <h3 className="text-2xl font-semibold text-mainBrown mb-2">
                 {attorney.name}
               </h3>
-              <p className="text-sm text-gray-700 leading-relaxed mb-4 line-clamp-5">
+              <p className="text-md text-gray-700 leading-relaxed mb-4 line-clamp-5">
                 {attorney.mainContent}
               </p>
               <Link href={`/attorneys/${attorney.slug}`}>

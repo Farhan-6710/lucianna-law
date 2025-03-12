@@ -12,7 +12,7 @@ const page = () => {
     <div className="bg-mainBlue">
       <HeaderTop />
       <Header />
-      <div className="border-b border-lightBlue/30 pb-6 md:pb-12">
+      <div className="border-b border-lightBlue/30 pb-6 md:pb-12 px-4">
         <div className="bg-mainBlue py-6">
           <SectionHeading>Blog</SectionHeading>
         </div>

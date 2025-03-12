@@ -11,7 +11,7 @@ const HeroSection = () => {
     >
       <div className="container mx-auto flex flex-col lg:flex-row justify-center items-center py-10 xl:py-0">
         {/* Left Side: Text Content */}
-        <div className="flex flex-col items-center lg:items-start text-center w-full lg:w-1/2 px-4 xl:pl-32">
+        <div className="flex flex-col items-center lg:items-start text-center w-full lg:w-1/2 px-4 xl:pl-24">
           <p className="text-center lg:text-left text-lg lg:text-2xl mb-4 lg:mb-10 uppercase tracking-widest">
             <span className="text-lg lg:text-2xl uppercase">
               LAW OFFICES OF NANCY E. LUCIANNA
@@ -35,7 +35,7 @@ const HeroSection = () => {
             <li>Home visits to clients upon request.</li>
           </ul>
           <Link
-            href="/contact"
+            href="/contact-us"
             className="bg-mainBrown text-white px-8 py-3 rounded hover:bg-tan flex justify-center items-center w-fit"
             aria-label="Contact our offices to learn more and schedule a consultation" /*Descriptive text, for SEO. "Schedule a consultation: is helpful"*/
           >

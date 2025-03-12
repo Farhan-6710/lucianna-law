@@ -21,7 +21,7 @@ const Footer = () => {
         backgroundSize: "cover",
       }}
     >
-      <h2 className="flex justify-center text-white text-xl md:3xl lg:text-4xl text-center lg:pt-8 border-lightBlue/30 px-2">
+      <h2 className="flex justify-center text-white text-xl md:3xl lg:text-4xl text-center pt-4 lg:pt-8 border-lightBlue/30 px-2">
         Serving New Jersey, New York, and The United States Virgin Islands
       </h2>
       <div className="container mx-auto px-4 flex flex-col lg:flex-row gap-8 py-6 lg:py-16">
