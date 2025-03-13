@@ -276,7 +276,7 @@ export const attorneyData = [
         </div>
         <div className="w-full flex flex-col gap-10">
           {/* Professional Associations & Past Employment */}
-          <div className="grid grid-cols-2 gap-10">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
             {/* Professional Associations */}
             <div>
               <h2 className="text-2xl font-semibold text-gray-900 mb-4">

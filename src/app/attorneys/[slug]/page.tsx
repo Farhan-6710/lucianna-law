@@ -60,25 +60,29 @@ export default function Page() {
                 </div>
                 <div className="flex space-x-4">
                   <Link
-                    href="#"
+                    href="https://x.com/i/flow/login?redirect_after_login=%2Fluciannalaw"
+                    target="_blank"
                     className="text-mainBlue hover:bg-mainBlue hover:text-white border border-mainBlue p-3 h-fit"
                   >
                     <FaXTwitter className="size-6" />
                   </Link>
                   <Link
-                    href="#"
+                    href="https://www.facebook.com/luciannalaw"
+                    target="_blank"
                     className="text-mainBlue hover:bg-mainBlue hover:text-white border border-mainBlue p-3 h-fit"
                   >
                     <FaFacebookF className="size-6" />
                   </Link>
                   <Link
-                    href="#"
+                    href="https://www.linkedin.com/in/luciannalaw/"
+                    target="_blank"
                     className="text-mainBlue hover:bg-mainBlue hover:text-white border border-mainBlue p-3 h-fit"
                   >
                     <FaLinkedinIn className="size-6" />
                   </Link>
                   <Link
-                    href="#"
+                    href="https://www.instagram.com/"
+                    target="_blank"
                     className="text-mainBlue hover:bg-mainBlue hover:text-white border border-mainBlue p-3 h-fit"
                   >
                     <FaInstagram className="size-6" />
