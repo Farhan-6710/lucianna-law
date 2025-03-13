@@ -207,7 +207,7 @@ export const attorneyData = [
     ),
     remainingContent: (
       <div className="w-full flex flex-col gap-6 pb-8">
-        <div className="w-full grid grid-cols-2 gap-10">
+        <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-10">
           {/* Left Section: Areas of Practice & Bar Admissions */}
           <div className="flex flex-col gap-10">
             {/* Areas of Practice */}

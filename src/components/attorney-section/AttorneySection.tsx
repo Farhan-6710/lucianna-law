@@ -18,7 +18,7 @@ const AttorneySection = () => {
             key={attorney.id}
             className="flex flex-col xl:flex-row bg-white text-mainBlue rounded-2xl shadow-lg"
           >
-            <div className="aspect-square relative w-full h-full rounded-t-2xl xl:rounded-l-2xl xl:rounded-r-none overflow-hidden">
+            <div className="aspect-square relative w-full xl:min-w-[240px] h-full rounded-t-2xl xl:rounded-l-2xl xl:rounded-r-none overflow-hidden">
               <Image
                 src={attorney.imgPath} // Replace with actual image path
                 alt={attorney.name}
