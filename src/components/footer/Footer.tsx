@@ -41,25 +41,29 @@ const Footer = () => {
           </p>
           <div className="flex space-x-4">
             <Link
-              href="#"
+              href="https://x.com/i/flow/login?redirect_after_login=%2Fluciannalaw"
+              target="_blank"
               className="text-lightBlue hover:text-gray-300 border border-lightBlue p-3"
             >
               <FaXTwitter className="size-6" />
             </Link>
             <Link
-              href="#"
+              href="https://www.facebook.com/luciannalaw"
+              target="_blank"
               className="text-lightBlue hover:text-gray-300 border border-lightBlue p-3"
             >
               <FaFacebookF className="size-6" />
             </Link>
             <Link
-              href="#"
+              href="https://www.linkedin.com/in/luciannalaw/"
+              target="_blank"
               className="text-lightBlue hover:text-gray-300 border border-lightBlue p-3"
             >
               <FaLinkedinIn className="size-6" />
             </Link>
             <Link
-              href="#"
+              href="https://www.instagram.com/"
+              target="_blank"
               className="text-lightBlue hover:text-gray-300 border border-lightBlue p-3"
             >
               <FaInstagram className="size-6" />
@@ -74,27 +78,42 @@ const Footer = () => {
           </h4>
           <ul className="space-y-2 text-lightBlue uppercase">
             <li>
-              <Link href="#" className="hover:text-gray-300">
+              <Link
+                href="/legal-specialities/criminal-defense"
+                className="hover:text-gray-300"
+              >
                 Criminal Defense
               </Link>
             </li>
             <li>
-              <Link href="#" className="hover:text-gray-300">
+              <Link
+                href="/legal-specialities/personal-injury"
+                className="hover:text-gray-300"
+              >
                 Personal Injury
               </Link>
             </li>
             <li>
-              <Link href="#" className="hover:text-gray-300">
+              <Link
+                href="/legal-specialities/workplace-discrimination"
+                className="hover:text-gray-300"
+              >
                 Workplace Discrimination
               </Link>
             </li>
             <li>
-              <Link href="#" className="hover:text-gray-300">
+              <Link
+                href="/legal-specialities/workers-compensation"
+                className="hover:text-gray-300"
+              >
                 Worker&apos;s Compensation
               </Link>
             </li>
             <li>
-              <Link href="#" className="hover:text-gray-300">
+              <Link
+                href="/legal-specialities/police-misconduct"
+                className="hover:text-gray-300"
+              >
                 Police Misconduct
               </Link>
             </li>
@@ -108,37 +127,37 @@ const Footer = () => {
           </h4>
           <ul className="space-y-2 text-lightBlue">
             <li>
-              <Link href="#" className="hover:text-gray-300">
+              <Link href="/" className="hover:text-gray-300">
                 Home
               </Link>
             </li>
             <li>
-              <Link href="#" className="hover:text-gray-300">
+              <Link href="/about" className="hover:text-gray-300">
                 About Us
               </Link>
             </li>
             <li>
-              <Link href="#" className="hover:text-gray-300">
+              <Link href="/areas-of-practice" className="hover:text-gray-300">
                 Areas of Practice
               </Link>
             </li>
             <li>
-              <Link href="#" className="hover:text-gray-300">
+              <Link href="/attorneys" className="hover:text-gray-300">
                 Attorneys
               </Link>
             </li>
             <li>
-              <Link href="#" className="hover:text-gray-300">
+              <Link href="/legal-specialities" className="hover:text-gray-300">
                 Legal Specialties
               </Link>
             </li>
             <li>
-              <Link href="#" className="hover:text-gray-300">
+              <Link href="/blog" className="hover:text-gray-300">
                 Blog
               </Link>
             </li>
             <li>
-              <Link href="#" className="hover:text-gray-300">
+              <Link href="/contact-us" className="hover:text-gray-300">
                 Contact Us
               </Link>
             </li>

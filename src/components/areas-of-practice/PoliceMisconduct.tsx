@@ -45,16 +45,16 @@ const PoliceMisconduct = () => {
         examples include:
       </p>
       <h3 className="text-xl md:text-2xl lg:text-3xl text-white mt-8 mb-2 font-normal">
-        A police misconduct settlement for $60,000 A
+        A police misconduct settlement for $60,000
       </h3>
       <h3 className="text-xl md:text-2xl lg:text-3xl text-white mb-2 font-normal">
-        police misconduct settlement for $120,000 A
+        A police misconduct settlement for $120,000
       </h3>
       <h3 className="text-xl md:text-2xl lg:text-3xl text-white mb-2 font-normal">
-        police misconduct settlement for $300,000 A
+        A police misconduct settlement for $300,000
       </h3>
       <h3 className="text-xl md:text-2xl lg:text-3xl text-white mb-2 font-normal">
-        police misconduct settlement for $350,000
+        A police misconduct settlement for $350,000
       </h3>
       <p className="text-white mt-4 text-lg">
         Call Us Today To Discuss Your Rights And Legal Options <br /> <br />

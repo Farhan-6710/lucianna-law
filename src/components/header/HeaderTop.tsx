@@ -13,7 +13,8 @@ const HeaderTop = () => {
         {/* Center the content */}
         <div className="flex gap-8 text-xl">
           <Link
-            href="https://facebook.com"
+            href="https://www.facebook.com/luciannalaw"
+            target="_blank"
             aria-label="Facebook"
             className="text-mainBrown hover:text-white transition-colors duration-300"
           >
@@ -23,7 +24,8 @@ const HeaderTop = () => {
             {/* aria-hidden so the icon will be ignored */}
           </Link>
           <Link
-            href="https://twitter.com"
+            href="https://x.com/i/flow/login?redirect_after_login=%2Fluciannalaw"
+            target="_blank"
             aria-label="Twitter"
             className="text-mainBrown hover:text-white transition-colors duration-300"
           >
@@ -33,7 +35,8 @@ const HeaderTop = () => {
             {/* aria-hidden so the icon will be ignored */}
           </Link>
           <Link
-            href="https://linkedin.com"
+            href="https://www.linkedin.com/in/luciannalaw/"
+            target="_blank"
             aria-label="LinkedIn"
             className="text-mainBrown hover:text-white transition-colors duration-300"
           >
@@ -43,7 +46,8 @@ const HeaderTop = () => {
             {/* aria-hidden so the icon will be ignored */}
           </Link>
           <Link
-            href="https://instagram.com"
+            href="https://www.instagram.com/"
+            target="_blank"
             aria-label="Instagram"
             className="text-mainBrown hover:text-white transition-colors duration-300"
           >

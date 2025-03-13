@@ -122,9 +122,15 @@ export const blogData = [
         7. Driving on the Revoked list due to a DUI offense can be considered a
         felony offense in New Jersey under certain conditions, and could lead to
         deportation even for those with a visa or lawful status. <br /> <br />
-        The Executive Orders also have directed Immigration Courts to speed up
-        any hearings, which could mean that cases previously taking years to
-        decide, may now receive quicker attention. <br /> <br />
+        Do not give the police any excuse to pull you over. Driving with tinted
+        windows in New Jersey allows the police cause to stop a car, which could
+        then lead to more severe consequences. Likewise, speeding or improper
+        driving could lead to traffic tickets that may cause serious problems
+        for those living in the United States without documentation. DRIVE
+        CAREFULLY! <br /> <br />
+        The Executive Orders also have directed Immigration Courts to
+        speed up any hearings, which could mean that cases previously taking
+        years to decide, may now receive quicker attention. <br /> <br />
         While many portions of the Executive Orders concerning immigration are
         under review by various courts, it is essential to know your rights and
         those of your loved ones, despite their visa status in the United

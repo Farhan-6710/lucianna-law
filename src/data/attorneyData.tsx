@@ -22,6 +22,28 @@ export const attorneyData = [
     ),
     remainingContent: (
       <div className="w-full flex flex-col gap-6 pb-8">
+        <span>
+          After a successful career with Lucianna & Lucianna, NANCY E. LUCIANNA
+          formed her own law firm in 1997 finding a home for her practices in
+          Fort Lee, New Jersey. It is here where NANCY E. LUCIANNA further
+          gained extensive experience in the areas of criminal and civil
+          litigation and developed the philosophy that in order to obtain a
+          desired result for her clients, thorough preparation and effective
+          presentation in court is an absolute necessity. <br /> <br />
+          NANCY E. LUCIANNA has tried almost every kind of criminal case and a
+          wide variety of civil cases for the past thirty eight years in New
+          Jersey’s State-Federal courts. She also has active practices in both
+          New York and the United States Virgin Islands. NANCY E. LUCIANNA
+          earned her J.D. from Fordham Law School in 1986 after graduating in
+          1983 from Fordham as an undergraduate with a double major in political
+          science and economics. <br />
+          <span className="text-lightBlue">
+            When she is not in court, NANCY E. LUCIANNA enjoys running, fitness
+            training, scuba diving, deep-sea fishing and is certified in boat
+            operation and handling.
+          </span>
+        </span>
+
         <div className="flex flex-col lg:flex-row w-full gap-6">
           {/* Left Column - Areas of Practice */}
           <div className="w-full lg:w-1/2">
@@ -175,10 +197,12 @@ export const attorneyData = [
     mainContent: (
       <span>
         Mr. Darakjian joined the Law Office of NANCY E. LUCIANNA, P.C. in 2016
-        with his primary focus on research & writing. He is an experienced
-        appellate advocate and a member of the Bergen County Bar Association.
-        Previously, he clerked in the Bergen County Superior Court, Criminal
-        part by the Honorary Patrick J. Roma.
+        with his primary focus on research & writing all major aspects of the
+        growing practice. Mr. Darakjian is an experienced appellate advocate and
+        a member of the Begen County Bar Association. Before joining the firm,
+        Mr. Darakjian clerked in the Bergen County Superior Court, Criminal part
+        by the Honorary Patrick J. Roma. Mr. Darakjian is a graduate of Brooklyn
+        Law and Bucknell University undergraduate.
       </span>
     ),
     remainingContent: (
